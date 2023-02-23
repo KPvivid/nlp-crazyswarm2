@@ -1,0 +1,1 @@
+/opt/drone_project/ros2_ws/src/build/crazyflie_examples/ament_cmake_python/crazyflie_examples/crazyflie_examples.egg-info/top_level.txt

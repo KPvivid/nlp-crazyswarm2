@@ -1,0 +1,394 @@
+[0.822s] Invoking command in '/opt/drone_project/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/opt/drone_project/ros2_ws/install/motion_capture_tracking
+[1.558s] -- The C compiler identification is GNU 11.3.0
+[3.063s] -- The CXX compiler identification is GNU 11.3.0
+[3.966s] -- Detecting C compiler ABI info
+[4.231s] -- Detecting C compiler ABI info - done
+[4.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.238s] -- Detecting C compile features
+[4.238s] -- Detecting C compile features - done
+[4.241s] -- Detecting CXX compiler ABI info
+[4.515s] -- Detecting CXX compiler ABI info - done
+[4.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.521s] -- Detecting CXX compile features
+[4.522s] -- Detecting CXX compile features - done
+[4.524s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.647s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.693s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.712s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[5.037s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.040s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.047s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.073s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.145s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.148s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.218s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.881s] -- Found FastRTPS: /opt/ros/humble/include  
+[20.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.905s] -- Looking for pthread.h
+[21.254s] -- Looking for pthread.h - found
+[21.254s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.611s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[21.612s] -- Found Threads: TRUE  
+[21.796s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[22.273s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[22.364s] -- Found motion_capture_tracking_interfaces: 1.0.0 (/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[22.466s] -- Checking for module 'eigen3'
+[22.475s] --   Found eigen3, version 3.4.0
+[22.495s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[22.495s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[22.525s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[22.526s] -- looking for PCL_COMMON
+[22.527s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[22.527s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[22.530s] [33mCMake Warning (dev) at deps/librigidbodytracker/CMakeLists.txt:7 (find_package):
+[22.530s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[22.530s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[22.530s]   command to set the policy and suppress this warning.
+[22.530s] 
+[22.530s]   CMake variable PCL_ROOT is set to:
+[22.530s] 
+[22.530s]     /usr
+[22.530s] 
+[22.530s]   For compatibility, CMake is ignoring the variable.
+[22.530s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[22.531s] [0m
+[25.515s] -- Checking for module 'flann'
+[25.526s] --   Found flann, version 1.9.1
+[26.511s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[26.511s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[26.552s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[26.763s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[27.115s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[27.115s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[27.119s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[28.306s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[29.900s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[29.932s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[33.447s] -- Found X11: /usr/include   
+[33.447s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[33.777s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[33.777s] -- Looking for gethostbyname
+[34.085s] -- Looking for gethostbyname - found
+[34.085s] -- Looking for connect
+[34.404s] -- Looking for connect - found
+[34.405s] -- Looking for remove
+[35.070s] -- Looking for remove - found
+[35.070s] -- Looking for shmat
+[35.689s] -- Looking for shmat - found
+[35.689s] -- Looking for IceConnectionNumber in ICE
+[36.122s] -- Looking for IceConnectionNumber in ICE - found
+[40.082s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[40.090s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[40.100s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[40.108s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[41.026s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[41.786s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[41.792s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[41.807s] -- Found utf8cpp: /usr/include/utf8cpp  
+[42.389s] -- Checking for module 'libusb-1.0'
+[42.438s] --   Found libusb-1.0, version 1.0.25
+[42.829s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[42.830s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[42.830s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[44.028s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[44.028s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[44.028s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[50.814s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[50.820s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[50.825s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[58.918s] -- Found Qhull version 8.0.2
+[80.669s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[96.005s] -- looking for PCL_KDTREE
+[96.006s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[96.007s] -- looking for PCL_OCTREE
+[96.008s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[96.009s] -- looking for PCL_SEARCH
+[96.010s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[96.011s] -- looking for PCL_SAMPLE_CONSENSUS
+[96.012s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[96.013s] -- looking for PCL_FILTERS
+[96.014s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[96.015s] -- looking for PCL_2D
+[96.015s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[96.016s] -- looking for PCL_GEOMETRY
+[96.016s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[96.017s] -- looking for PCL_IO
+[96.018s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[96.019s] -- looking for PCL_FEATURES
+[96.020s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[96.021s] -- looking for PCL_ML
+[96.022s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[96.023s] -- looking for PCL_SEGMENTATION
+[96.024s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[96.025s] -- looking for PCL_VISUALIZATION
+[96.026s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[96.027s] -- looking for PCL_SURFACE
+[96.028s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[96.029s] -- looking for PCL_REGISTRATION
+[96.030s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[96.031s] -- looking for PCL_KEYPOINTS
+[96.032s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[96.033s] -- looking for PCL_TRACKING
+[96.034s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[96.035s] -- looking for PCL_RECOGNITION
+[96.036s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[96.037s] -- looking for PCL_STEREO
+[96.039s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[96.039s] -- looking for PCL_APPS
+[96.040s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[96.042s] -- looking for PCL_IN_HAND_SCANNER
+[96.043s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[96.043s] -- looking for PCL_MODELER
+[96.044s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[96.044s] -- looking for PCL_POINT_CLOUD_EDITOR
+[96.045s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[96.045s] -- looking for PCL_OUTOFCORE
+[96.046s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[96.047s] -- looking for PCL_PEOPLE
+[96.048s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[96.050s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[96.058s] [33mCMake Warning (dev) at deps/libmotioncapture/CMakeLists.txt:5 (option):
+[96.058s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[96.058s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[96.058s]   set the policy and suppress this warning.
+[96.059s] 
+[96.059s]   For compatibility with older versions of CMake, option is clearing the
+[96.059s]   normal variable 'LIBMOTIONCAPTURE_BUILD_PYTHON_BINDINGS'.
+[96.059s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[96.059s] [0m
+[96.067s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.5") found components: system 
+[96.099s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.5") found components: system thread 
+[96.117s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/CMakeLists.txt:1 (cmake_minimum_required):
+[96.117s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[96.117s]   CMake.
+[96.117s] 
+[96.117s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[96.117s]   CMake that the project does not need compatibility with older versions.
+[96.117s] 
+[96.117s] [0m
+[101.751s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/quat/CMakeLists.txt:1 (cmake_minimum_required):
+[101.751s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[101.752s]   CMake.
+[101.752s] 
+[101.752s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[101.752s]   CMake that the project does not need compatibility with older versions.
+[101.752s] 
+[101.752s] [0m
+[101.772s] -- Checking for module 'libusb-1.0'
+[101.794s] --   Found libusb-1.0, version 1.0.25
+[103.600s] -- Found Libusb1: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[124.835s] -- NOTE: You have VRPN_USE_LOCAL_HIDAPI enabled, but VRPN_USE_HID disabled: HIDAPI will only be built if you enable HID support for VRPN
+[124.835s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/cmake/FindOpenHaptics.cmake:56 (cmake_minimum_required):
+[124.836s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[124.836s]   CMake.
+[124.836s] 
+[124.836s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[124.836s]   CMake that the project does not need compatibility with older versions.
+[124.836s] Call Stack (most recent call first):
+[124.836s]   deps/libmotioncapture/deps/vrpn/CMakeLists.txt:468 (find_package)
+[124.837s] 
+[124.837s] [0m
+[136.275s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[136.275s]   The package name passed to `find_package_handle_standard_args` (I2CDEV)
+[136.276s]   does not match the name of the calling package (libi2c-dev).  This can lead
+[136.276s]   to problems in calling code that expects `find_package` result variables
+[136.276s]   (e.g., `_FOUND`) to follow a certain pattern.
+[136.276s] Call Stack (most recent call first):
+[136.276s]   deps/libmotioncapture/deps/vrpn/cmake/Findlibi2c-dev.cmake:43 (find_package_handle_standard_args)
+[136.276s]   deps/libmotioncapture/deps/vrpn/CMakeLists.txt:518 (find_package)
+[136.276s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[136.276s] [0m
+[136.276s] -- Found I2CDEV: /usr/include  
+[141.903s] -- Looking for C++ include linux/joystick.h
+[142.370s] -- Looking for C++ include linux/joystick.h - found
+[142.370s] -- Looking for C++ include linux/input.h
+[142.839s] -- Looking for C++ include linux/input.h - found
+[144.846s] -- Found quatlib: quat  
+[144.858s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/client_src/CMakeLists.txt:1 (cmake_minimum_required):
+[144.858s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[144.859s]   CMake.
+[144.859s] 
+[144.859s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[144.859s]   CMake that the project does not need compatibility with older versions.
+[144.859s] 
+[144.859s] [0m
+[145.081s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter Development Development.Module Development.Embed 
+[145.092s] -- pybind11 v2.11.0 dev1
+[145.148s] -- Performing Test HAS_FLTO
+[145.697s] -- Performing Test HAS_FLTO - Success
+[145.789s] -- Configuring done
+[145.907s] -- Generating done
+[145.916s] -- Build files have been written to: /opt/drone_project/ros2_ws/build/motion_capture_tracking
+[145.948s] Invoked command in '/opt/drone_project/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/opt/drone_project/ros2_ws/install/motion_capture_tracking
+[145.952s] Invoking command in '/opt/drone_project/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/drone_project/ros2_ws/build/motion_capture_tracking -- -j12 -l12
+[146.012s] [  6%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/matrix.c.o[0m
+[146.013s] [  6%] [32mBuilding CXX object deps/librigidbodytracker/CMakeFiles/librigidbodytracker.dir/src/rigid_body_tracker.cpp.o[0m
+[146.013s] [  6%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/vector.c.o[0m
+[146.013s] [  6%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp.o[0m
+[146.013s] [  8%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClient.cpp.o[0m
+[146.013s] [  9%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Network.cpp.o[0m
+[146.014s] [ 11%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Markup.cpp.o[0m
+[146.014s] [ 13%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp.o[0m
+[146.014s] [ 14%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/quat.c.o[0m
+[146.014s] [ 16%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/xyzquat.c.o[0m
+[146.015s] [ 18%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp.o[0m
+[146.020s] [ 19%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTPacket.cpp.o[0m
+[146.066s] [ 21%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTProtocol.cpp.o[0m
+[146.109s] [ 24%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClientSDK/CGClient.cpp.o[0m
+[146.109s] [ 24%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp.o[0m
+[146.194s] [ 26%] [32m[1mLinking C static library libquat.a[0m
+[146.260s] [ 26%] Built target quat
+[146.304s] [ 27%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog.C.o[0m
+[146.455s] In file included from [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.cpp:18[m[K:
+[146.456s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:[m[K In copy constructor ‘[01m[KCMarkup::ElemPos::ElemPos(const CMarkup::ElemPos&)[m[K’:
+[146.456s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:55:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CMarkup::ElemPos& CMarkup::ElemPos::operator=(const CMarkup::ElemPos&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[146.456s]    89 |                 ElemPos(const ElemPos& pos) { *this = [01;35m[Kpos[m[K; };
+[146.456s]       |                                                       [01;35m[K^~~[m[K
+[146.457s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCMarkup::ElemPos[m[K’ has user-provided ‘[01m[KCMarkup::ElemPos::ElemPos(const CMarkup::ElemPos&)[m[K’
+[146.457s]    89 |                 [01;36m[KElemPos[m[K(const ElemPos& pos) { *this = pos; };
+[146.457s]       |                 [01;36m[K^~~~~~~[m[K
+[146.788s] [ 29%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog_Output.C.o[0m
+[146.859s] [ 31%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Assert.C.o[0m
+[146.960s] [ 32%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Auxiliary_Logger.C.o[0m
+[146.979s] [ 34%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_BaseClass.C.o[0m
+[147.039s] [ 36%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Button.C.o[0m
+[147.293s] [ 37%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Connection.C.o[0m
+[147.467s] [ 39%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp.o[0m
+[147.626s] [ 40%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Dial.C.o[0m
+[147.793s] [ 42%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_EndpointContainer.C.o[0m
+[148.036s] In file included from [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:17[m[K:
+[148.037s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:[m[K In copy constructor ‘[01m[KCMarkup::ElemPos::ElemPos(const CMarkup::ElemPos&)[m[K’:
+[148.037s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:55:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CMarkup::ElemPos& CMarkup::ElemPos::operator=(const CMarkup::ElemPos&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[148.038s]    89 |                 ElemPos(const ElemPos& pos) { *this = [01;35m[Kpos[m[K; };
+[148.038s]       |                                                       [01;35m[K^~~[m[K
+[148.039s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCMarkup::ElemPos[m[K’ has user-provided ‘[01m[KCMarkup::ElemPos::ElemPos(const CMarkup::ElemPos&)[m[K’
+[148.039s]    89 |                 [01;36m[KElemPos[m[K(const ElemPos& pos) { *this = pos; };
+[148.040s]       |                 [01;36m[K^~~~~~~[m[K
+[148.098s] [ 44%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileConnection.C.o[0m
+[148.140s] [ 45%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileController.C.o[0m
+[148.461s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C:[m[K In member function ‘[01m[Kvoid vrpn::EndpointContainer::compact_()[m[K’:
+[148.461s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C:91:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbefore[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[148.462s]    91 |         size_type [01;35m[Kbefore[m[K = get_full_container_size();
+[148.462s]       |                   [01;35m[K^~~~~~[m[K
+[148.492s] [ 47%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForceDevice.C.o[0m
+[148.777s] [ 49%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Forwarder.C.o[0m
+[148.896s] [ 50%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForwarderController.C.o[0m
+[148.951s] [ 52%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FunctionGenerator.C.o[0m
+[149.483s] [ 54%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Imager.C.o[0m
+[149.616s] [ 55%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_LamportClock.C.o[0m
+[149.805s] [ 57%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Mutex.C.o[0m
+[150.389s] [ 59%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Poser.C.o[0m
+[150.663s] [ 60%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_RedundantTransmission.C.o[0m
+[150.689s] [ 62%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Serial.C.o[0m
+[150.756s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:[m[K In member function ‘[01m[Kbool CRTProtocol::GetCapture(const char*, bool)[m[K’:
+[150.756s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:651:66:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 1023 bytes into a region of size 1004 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[150.757s]   651 |                         sprintf(maErrorStr, "No packet received. [01;35m[K%s[m[K.", maErrorStr);
+[150.757s]       |                                                                  [01;35m[K^~[m[K
+[150.758s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:651:32:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output between 22 and 1045 bytes into a destination of size 1024
+[150.758s]   651 |                         [01;36m[Ksprintf(maErrorStr, "No packet received. %s.", maErrorStr)[m[K;
+[150.759s]       |                         [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[150.760s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:651:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ argument 3 overlaps destination object ‘[01m[Kthis[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wrestrict-Wrestrict]8;;[m[K]
+[150.761s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:580:62:[m[K [01;36m[Knote: [m[Kdestination object referenced by ‘[01m[Krestrict[m[K’-qualified argument 1 was declared here
+[150.761s]   580 | bool CRTProtocol::GetCapture(const char* pFileName, bool bC3D[01;36m[K)[m[K
+[150.763s]       |                                                              [01;36m[K^[m[K
+[150.938s] [ 63%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SerialPort.C.o[0m
+[150.952s] [ 65%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Shared.C.o[0m
+[151.190s] [ 67%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SharedObject.C.o[0m
+[151.262s] [ 68%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Sound.C.o[0m
+[151.428s] [ 70%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Text.C.o[0m
+[151.471s] [ 72%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Thread.C.o[0m
+[151.787s] [ 73%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Tracker.C.o[0m
+[152.014s] [ 75%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp.o[0m
+[152.231s] [ 77%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp.o[0m
+[152.299s] [ 78%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp.o[0m
+[153.065s] [ 80%] [32m[1mLinking CXX static library libvrpn.a[0m
+[153.268s] [ 80%] Built target vrpn
+[158.985s] [ 81%] [32m[1mLinking CXX static library libqualisys_cpp_sdk.a[0m
+[159.146s] [ 81%] Built target qualisys_cpp_sdk
+[163.873s] In file included from [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:1[m[K:
+[163.873s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/include/librigidbodytracker/rigid_body_tracker.h:[m[K In constructor ‘[01m[Klibrigidbodytracker::RigidBodyTracker::RigidBodyTracker(const std::vector<librigidbodytracker::DynamicsConfiguration>&, const std::vector<std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >&, const std::vector<librigidbodytracker::RigidBody>&)[m[K’:
+[163.874s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/include/librigidbodytracker/rigid_body_tracker.h:112:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klibrigidbodytracker::RigidBodyTracker::m_trackPositionOnly[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[163.875s]   112 |     bool [01;35m[Km_trackPositionOnly[m[K;
+[163.875s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[163.876s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/include/librigidbodytracker/rigid_body_tracker.h:110:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool librigidbodytracker::RigidBodyTracker::m_initialized[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[163.876s]   110 |     bool [01;35m[Km_initialized[m[K;
+[163.877s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[163.878s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:75:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[163.878s]    75 | [01;35m[KRigidBodyTracker[m[K::RigidBodyTracker(
+[163.878s]       | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[163.943s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kbool librigidbodytracker::RigidBodyTracker::initializePose(pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[163.943s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:152:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[163.943s]   152 |   for (int i = 0; [01;35m[Ki < numRigidBodies[m[K; ++i) {
+[163.943s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[163.944s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:154:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[163.944s]   154 |     for (int j = i + 1; [01;35m[Kj < numRigidBodies[m[K; ++j) {
+[163.944s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[163.978s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:165:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[163.978s]   165 |   for (int iRb = 0; [01;35m[KiRb < numRigidBodies[m[K; ++iRb) {
+[163.978s]       |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[163.979s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:180:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[163.979s]   180 |     if ([01;35m[KnFound < rbNpts[m[K) {
+[163.979s]       |         [01;35m[K~~~~~~~^~~~~~~~[m[K
+[163.982s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:193:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[163.982s]   193 |     for (int i = 0; [01;35m[Ki < rbNpts[m[K; ++i) {
+[163.982s]       |                     [01;35m[K~~^~~~~~~~[m[K
+[164.607s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kbool librigidbodytracker::RigidBodyTracker::initializePosition(std::chrono::_V2::system_clock::time_point, pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[164.608s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:412:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtotalCost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[164.608s]   412 |   long [01;35m[KtotalCost[m[K = assignment.solve(solution);
+[164.608s]       |        [01;35m[K^~~~~~~~~[m[K
+[164.612s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kvoid librigidbodytracker::RigidBodyTracker::updatePosition(std::chrono::_V2::system_clock::time_point, pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[164.612s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:466:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[164.613s]   466 |   for (int iRb = 0; [01;35m[KiRb < numRigidBodies[m[K; ++iRb) {
+[164.613s]       |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[164.642s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:521:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtotalCost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[164.642s]   521 |   long [01;35m[KtotalCost[m[K = assignment.solve(solution);
+[164.642s]       |        [01;35m[K^~~~~~~~~[m[K
+[172.464s] [ 83%] [32m[1mLinking CXX static library libViconDataStreamSDK_CPP.a[0m
+[172.847s] [ 83%] Built target ViconDataStreamSDK_CPP
+[172.871s] [ 88%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/motioncapture.cpp.o[0m
+[172.871s] [ 88%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/optitrack.cpp.o[0m
+[172.871s] [ 88%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/vicon.cpp.o[0m
+[172.872s] [ 90%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/testmocap.cpp.o[0m
+[172.872s] [ 91%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/vrpn.cpp.o[0m
+[172.874s] [ 93%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/qualisys.cpp.o[0m
+[176.966s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/optitrack.cpp:[m[K In member function ‘[01m[Kvoid libmotioncapture::MotionCaptureOptitrackImpl::parseModelDef(const char*)[m[K’:
+[176.966s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/optitrack.cpp:66:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kminor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[176.966s]    66 |       int [01;35m[Kminor[m[K = versionMinor;
+[176.966s]       |           [01;35m[K^~~~~[m[K
+[176.983s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/optitrack.cpp:[m[K In member function ‘[01m[Kvirtual void libmotioncapture::MotionCaptureOptitrack::waitForNextFrame()[m[K’:
+[176.983s] [01m[K/opt/drone_project/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/optitrack.cpp:653:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbTrackedModelsChanged[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[176.983s]   653 |         bool [01;35m[KbTrackedModelsChanged[m[K = (params & 0x02) != 0;         // 0x02 Actively tracked model list has changed
+[176.984s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[178.795s] [ 95%] [32m[1mLinking CXX static library liblibrigidbodytracker.a[0m
+[178.948s] [ 95%] Built target librigidbodytracker
+[179.392s] [ 96%] [32m[1mLinking CXX static library liblibmotioncapture.a[0m
+[179.465s] [ 96%] Built target libmotioncapture
+[179.485s] [ 98%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_node.dir/src/motion_capture_tracking_node.cpp.o[0m
+[190.996s] [100%] [32m[1mLinking CXX executable motion_capture_tracking_node[0m
+[194.520s] [100%] Built target motion_capture_tracking_node
+[194.532s] Invoked command in '/opt/drone_project/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/drone_project/ros2_ws/build/motion_capture_tracking -- -j12 -l12
+[194.578s] Invoking command in '/opt/drone_project/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/drone_project/ros2_ws/build/motion_capture_tracking
+[194.583s] -- Install configuration: ""
+[194.584s] -- Execute custom install script
+[194.585s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node
+[194.592s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/launch.py
+[194.599s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/node.launch
+[194.605s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/cfg.yaml
+[194.612s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/rviz.rviz
+[194.618s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking
+[194.625s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking
+[194.632s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.sh
+[194.638s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.dsv
+[194.645s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.sh
+[194.651s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.dsv
+[194.658s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.bash
+[194.665s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.sh
+[194.672s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.zsh
+[194.679s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.dsv
+[194.685s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv
+[194.692s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/packages/motion_capture_tracking
+[194.700s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig.cmake
+[194.706s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig-version.cmake
+[194.713s] -- Symlinking: /opt/drone_project/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.xml
+[194.727s] Invoked command in '/opt/drone_project/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/drone_project/ros2_ws/build/motion_capture_tracking

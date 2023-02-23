@@ -1,0 +1,1 @@
+/opt/drone_project/ros2_ws/src/build/crazyflie_interfaces/rosidl_cmake/srv/NotifySetpointsStop_Request.msg

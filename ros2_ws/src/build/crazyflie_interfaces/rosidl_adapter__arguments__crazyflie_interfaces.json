@@ -1,0 +1,23 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/FullState.msg",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogDataGeneric.msg",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Hover.msg",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogBlock.msg",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Position.msg",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.msg",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/VelocityWorld.msg",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/GoTo.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Land.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/NotifySetpointsStop.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/SetGroupMask.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/StartTrajectory.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Stop.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Takeoff.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UpdateParams.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UploadTrajectory.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/RemoveLogging.srv",
+    "/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/AddLogging.srv"
+  ]
+}

@@ -1,0 +1,92 @@
+[1.516s] Invoking command in '/opt/drone_project/ros2_ws/src/build/crazyflie_sim': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/motion_capture_tracking:/opt/drone_project/ros2_ws/install/crazyflie:/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_sim:/opt/drone_project/ros2_ws/install/crazyflie_examples:/opt/drone_project/ros2_ws/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/opt/drone_project/ros2_ws/src/install/crazyflie_sim
+[2.363s] -- The C compiler identification is GNU 11.3.0
+[8.151s] -- The CXX compiler identification is GNU 11.3.0
+[12.599s] -- Detecting C compiler ABI info
+[14.051s] -- Detecting C compiler ABI info - done
+[14.079s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.080s] -- Detecting C compile features
+[14.081s] -- Detecting C compile features - done
+[14.091s] -- Detecting CXX compiler ABI info
+[15.403s] -- Detecting CXX compiler ABI info - done
+[15.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.470s] -- Detecting CXX compile features
+[15.480s] -- Detecting CXX compile features - done
+[15.502s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.055s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[17.789s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[19.451s] -- Configuring done
+[19.485s] -- Generating done
+[19.492s] -- Build files have been written to: /opt/drone_project/ros2_ws/src/build/crazyflie_sim
+[19.510s] Invoked command in '/opt/drone_project/ros2_ws/src/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/motion_capture_tracking:/opt/drone_project/ros2_ws/install/crazyflie:/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_sim:/opt/drone_project/ros2_ws/install/crazyflie_examples:/opt/drone_project/ros2_ws/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/opt/drone_project/ros2_ws/src/install/crazyflie_sim
+[19.518s] Invoking command in '/opt/drone_project/ros2_ws/src/build/crazyflie_sim': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/motion_capture_tracking:/opt/drone_project/ros2_ws/install/crazyflie:/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_sim:/opt/drone_project/ros2_ws/install/crazyflie_examples:/opt/drone_project/ros2_ws/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/drone_project/ros2_ws/src/build/crazyflie_sim -- -j12 -l12
+[19.811s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[19.819s] Built target ament_cmake_python_symlink_crazyflie_sim
+[21.521s] running egg_info
+[21.525s] creating crazyflie_sim.egg-info
+[21.527s] writing crazyflie_sim.egg-info/PKG-INFO
+[21.529s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[21.530s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[21.533s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[21.533s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[21.541s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[21.544s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[21.682s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[21.802s] running install_scripts
+[21.814s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[21.815s]   warnings.warn(
+[21.979s] running egg_info
+[21.986s] writing crazyflie_sim.egg-info/PKG-INFO
+[21.988s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[21.989s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[21.991s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[22.001s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[22.006s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[22.018s] Installing crazyflie_server script to scripts
+[22.240s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[22.288s] Invoked command in '/opt/drone_project/ros2_ws/src/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/motion_capture_tracking:/opt/drone_project/ros2_ws/install/crazyflie:/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_sim:/opt/drone_project/ros2_ws/install/crazyflie_examples:/opt/drone_project/ros2_ws/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /opt/drone_project/ros2_ws/src/build/crazyflie_sim -- -j12 -l12
+[22.405s] Invoking command in '/opt/drone_project/ros2_ws/src/build/crazyflie_sim': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/motion_capture_tracking:/opt/drone_project/ros2_ws/install/crazyflie:/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_sim:/opt/drone_project/ros2_ws/install/crazyflie_examples:/opt/drone_project/ros2_ws/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/drone_project/ros2_ws/src/build/crazyflie_sim
+[22.439s] -- Install configuration: ""
+[22.442s] -- Execute custom install script
+[22.445s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[22.484s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[22.534s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/PKG-INFO
+[22.584s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/SOURCES.txt
+[22.642s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/dependency_links.txt
+[22.723s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/entry_points.txt
+[22.781s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/top_level.txt
+[22.850s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[22.930s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+[22.985s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+[23.029s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+[23.070s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+[23.116s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+[23.160s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+[23.206s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+[23.253s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+[23.297s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[23.343s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[23.382s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[23.423s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[23.463s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[23.505s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[23.552s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[23.595s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[23.645s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[23.681s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[23.718s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[23.759s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[23.795s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[23.834s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[23.863s] -- Symlinking: /opt/drone_project/ros2_ws/src/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[24.102s] Listing '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim'...
+[24.104s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py'...
+[24.106s] Listing '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+[24.108s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py'...
+[24.110s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py'...
+[24.110s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py'...
+[24.111s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py'...
+[24.113s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py'...
+[24.113s] Listing '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+[24.115s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py'...
+[24.116s] Compiling '/opt/drone_project/ros2_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py'...
+[24.139s] Invoked command in '/opt/drone_project/ros2_ws/src/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/motion_capture_tracking:/opt/drone_project/ros2_ws/install/crazyflie:/opt/drone_project/ros2_ws/install/motion_capture_tracking_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_sim:/opt/drone_project/ros2_ws/install/crazyflie_examples:/opt/drone_project/ros2_ws/install/crazyflie_interfaces:/opt/drone_project/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /opt/drone_project/ros2_ws/src/build/crazyflie_sim

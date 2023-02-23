@@ -1,0 +1,29 @@
+[3.571s] Invoking command in '/opt/drone_project/ros2_ws/src/build/crazyflie_py': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/build/crazyflie_py/prefix_override:/opt/drone_project/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /opt/drone_project/ros2_ws/src/build/crazyflie_py/build --no-deps install_data
+[4.703s] running develop
+[4.708s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.708s]   warnings.warn(
+[4.717s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.717s]   warnings.warn(
+[4.936s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[4.937s]   warnings.warn(
+[5.249s] running egg_info
+[5.250s] creating crazyflie_py.egg-info
+[5.251s] writing crazyflie_py.egg-info/PKG-INFO
+[5.252s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[5.252s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[5.253s] writing requirements to crazyflie_py.egg-info/requires.txt
+[5.254s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[5.254s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[5.257s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[5.260s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[5.264s] running build_ext
+[5.265s] Creating /opt/drone_project/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[5.268s] 
+[5.268s] Installed /opt/drone_project/ros2_ws/src/build/crazyflie_py
+[5.269s] running install_data
+[5.270s] creating /opt/drone_project/ros2_ws/src/install/crazyflie_py/share/ament_index
+[5.270s] creating /opt/drone_project/ros2_ws/src/install/crazyflie_py/share/ament_index/resource_index
+[5.271s] creating /opt/drone_project/ros2_ws/src/install/crazyflie_py/share/ament_index/resource_index/packages
+[5.272s] copying resource/crazyflie_py -> /opt/drone_project/ros2_ws/src/install/crazyflie_py/share/ament_index/resource_index/packages
+[5.273s] copying package.xml -> /opt/drone_project/ros2_ws/src/install/crazyflie_py/share/crazyflie_py
+[5.351s] Invoked command in '/opt/drone_project/ros2_ws/src/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/drone_project/ros2_ws/src/build/crazyflie_py/prefix_override:/opt/drone_project/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/opt/drone_project/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /opt/drone_project/ros2_ws/src/build/crazyflie_py/build --no-deps install_data

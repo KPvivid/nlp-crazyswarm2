@@ -1,0 +1,1 @@
+/opt/drone_project/ros2_ws/src/crazyswarm2/crazyflie_sim/crazyflie_sim/visualization/rviz.py
